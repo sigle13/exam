@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
         mainMenus.add(new MainMenu(pnum++, "xml 파일 메모리화", "레이아웃 인플레이션", LayoutInflayTion.class));
         mainMenus.add(new MainMenu(pnum++, "intent 화면전환 ", "화면전환 값넘겨주기 값 리턴 받기", MyIntentActivity.class));
         mainMenus.add(new MainMenu(pnum++, "intent 객체전달 ", "객체 전달", MyParcelble.class));
+        mainMenus.add(new MainMenu(pnum++, "intent 객체전달 ", "객체 전달", MyParcelble.class));
+        mainMenus.add(new MainMenu(pnum++, "intent 객체전달 ", "객체 전달", MyParcelble.class));
+        mainMenus.add(new MainMenu(pnum++, "intent 객체전달 ", "객체 전달", MyParcelble.class));
         adepter = new MainMenuListAdepter(this, R.layout.layout_main_list_item, mainMenus);
         lv_list.setAdapter(adepter);
     }
